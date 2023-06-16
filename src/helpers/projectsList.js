@@ -1,5 +1,5 @@
-import project01 from './../img/projects/01.jpg'
-import project01b from './../img/projects/01-big.jpg'
+import project01 from './../img/projects/1.png'
+import project01b from './../img/projects/1-big.png'
 import project02 from './../img/projects/02.jpg'
 import project02b from './../img/projects/02-big.jpg'
 import project03 from './../img/projects/03.jpg'
@@ -9,11 +9,11 @@ import project04b from './../img/projects/04-big.jpg'
 
  const projects = [
 	{
-		title: 'Gaming streaming portal',
-		skills:'React, Node.js, MongoBd',
+		title: 'HBO Video Portal',
+		skills:' HTML / CSS / SCSS / Vanilla JavaScript',
 		img: project01,
 		imgBig: project01b,
-		gitHubLink: "http://github.com"
+		gitHubLink: "https://dmitriyvozhzhov.github.io/HBO/"
 	}, 
 	{
 		title: 'Video Service',
