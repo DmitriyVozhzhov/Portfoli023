@@ -4,7 +4,7 @@ import "./style.css";
 import sun from "./sun.svg";
 import moon from "./moon.svg";
 
-const buttonDarkMode = () => {
+const ButtonDarkMode = () => {
   const [darkMode, setDarkMode] = useState("light");
   //const buttonRef = useRef(null);
   useEffect(() => {
@@ -33,4 +33,4 @@ const buttonActive = 'dark-mode-btn dark-mode-btn--active'
   );
 };
 
-export default buttonDarkMode;
+export default ButtonDarkMode;
