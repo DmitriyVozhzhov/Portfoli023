@@ -8,7 +8,7 @@ const Header = () => {
     const el = useRef(null);
     useEffect(() => {
         const typed = new Typed(el.current, {
-          strings: ["Web Developer", "Ukrainian", "Frontend Developer"], // Strings to display
+          strings: ["Web Developer", "Ukrainian", "FrontEnd Developer"], // Strings to display
           // Speed settings, try diffrent values untill you get good results
           startDelay: 300,
           typeSpeed: 100,
